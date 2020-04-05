@@ -15,12 +15,11 @@ class App extends Component {
 
   render() {
     const { data } = this.state
-    console.log('APP:', data)
     return (
       <div className={CSS.container}>
         <Cards data={data} />
-        <Chart />
         <CountryPicker />
+        <Chart />
       </div>
     )
   }
