@@ -15,9 +15,9 @@ class App extends Component {
 
   render() {
     const { data } = this.state
+    console.log('APP:', data)
     return (
       <div className={CSS.container}>
-        <h1>App</h1>
         <Cards data={data} />
         <Chart />
         <CountryPicker />
