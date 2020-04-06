@@ -1,5 +1,7 @@
 body {
   background: rgb(250, 250, 250);
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -14,11 +16,17 @@ body {
   margin-top: 50px;
 }
 
+.hookLine {
+  margin-top: 30px !important;
+  text-align: center !important;
+}
+
 @media (max-width: 770px) {
   .container {
     margin: 0 10%;
   }
   .image {
     width: 100%;
+    margin-top: 10px;
   }
 }
