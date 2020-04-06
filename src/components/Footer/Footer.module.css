@@ -1,0 +1,22 @@
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: dimgray;
+  padding: 20px;
+  color: #fff;
+  width: 100vw;
+}
+
+.innerWrapper {
+  text-align: center;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
